@@ -19,7 +19,7 @@ The analysis is based on data obtained from AtliQ Mart's internal databases. The
 ## 1. High-Value Products in 'BOGOF' Promotion
  
 Objective: Identify high-value products featured in the 'BOGOF' (Buy One Get One Free) promotion.
-``` 
+``` sql
 SELECT
     DISTINCT p.product_name,
     f.base_price
